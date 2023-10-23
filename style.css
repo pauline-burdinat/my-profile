@@ -1,0 +1,92 @@
+/*Colors ans fonts*/
+body{
+                background: #F5F3E0
+                color: rgb(0, 0, 0, 1.0);
+                font-size:17px;
+                font-family: 'Candara';
+                line-height: 17px;
+}
+h1, h2, h3 {
+                font-family:Candara;
+                letter-spacing: 3px;
+                line-height: 11px;
+ 
+}
+h1 {
+                color: #D5B4B4;
+                font-size:25px;
+                line-height: 7px;
+                font-weight: 1200;
+}
+h2 {
+                color:#D5B4B4;
+                font-size:20px;
+}
+ 
+a {
+                text-decoration: none;
+                color: #D5B4B4;
+                font-height: 30px;
+                font-weight: 700;
+}
+a:hover {
+                color: white;
+                font-weight: 1000;
+}
+ul{
+                color: #D5B4B4;
+                line-height: 20px;
+}
+ 
+/* Custom Design with class*/
+ 
+.container {
+                width: 700px;
+                margin: 40px auto;
+}
+.card-white {
+                backgroud-color: white;
+                padding: 40px;
+                box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+                border-radius: 5px;
+                margin: 20px 0px;
+                text-align: center;
+}
+.img-circle {
+                border-radius: 50%;
+}
+.btn-color{
+                background-color: #BDCDD6;
+                color: white;
+                padding: 10px 15px;
+                border-radius: 4px;
+}
+.btn-color:hover {
+                background-color: #BDCDD6;
+                color: white;
+}
+.list-inline {
+                list-style: none;
+                padding-left: 0px;
+}
+.list-inline li {
+                display: inline;
+                padding: 10px;
+}
+.list-inline i {
+                font-size: 50px;
+}
+.list-inline i:hover {
+                color: black;
+}
+.list-line{
+                list-style: none;
+                padding-left: 0px;
+                font-weight: 700;
+}
+ 
+/* Design adjustements */
+#introdution p {
+                margin-bottom: 50px;
+}
+ 
